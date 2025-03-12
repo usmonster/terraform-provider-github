@@ -6,8 +6,8 @@ on:
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
-  schedule:
-    - cron: '16 7 * * 5'
+  # schedule:
+  #   - cron: '16 7 * * 5'
 
 jobs:
   analyze:
